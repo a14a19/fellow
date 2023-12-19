@@ -1,12 +1,16 @@
+import React from "react";
 import Learn from "./components/Learn/Learn"
+import Pricing from "./components/pricing"
+import HeroSection from './components/HeroSection';
 
 function App() {
-
   return (
-    <div className="w-screen h-screen bg-[#000]">
+    <>
       <Learn/>
-    </div>
+      <HeroSection />
+      <Pricing/>
+    </>
   )
-}
+};
 
-export default App
+export default App;
