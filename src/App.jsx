@@ -1,12 +1,12 @@
 import React from "react";
 import Pricing from "./components/pricing"
+import HeroSection from './components/HeroSection';
 
 function App() {
   return (
-    <div>
-      <Pricing/>
-    </div>
+    <HeroSection />
+    <Pricing/>
   )
-}
+};
 
-export default App
+export default App;
