@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.section {
+  background-color: #06060600;
+}
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "IBM Plex Sans", sans-serif, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -17,6 +20,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.package-price {
+  background: -webkit-linear-gradient(#986DEA, #EA69BD);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /* a {
   font-weight: 500;
   color: #646cff;

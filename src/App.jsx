@@ -1,18 +1,18 @@
 import React from "react"
 import Footer from "./components/Footer"
-import Sample from "./components/Sample"
+import Learn from "./components/Learn/Learn"
+import Pricing from "./components/pricing"
+import HeroSection from './components/HeroSection';
 
 function App() {
-
   return (
-    // <div className="w-screen h-screen bg-[#000]">
-    //   Fellow
-    // </div>
     <>
+      <Learn/>
+      <HeroSection />
+      <Pricing/>
       <Footer/>
-      {/* <Sample/> */}
     </>
   )
-}
+};
 
-export default App
+export default App;
