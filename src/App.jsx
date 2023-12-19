@@ -1,10 +1,10 @@
-function App() {
+import React from 'react';
+import HeroSection from './components/HeroSection';
 
+function App() {
   return (
-    <div className="w-screen h-screen bg-[#000]">
-      Fellow
-    </div>
-  )
+    <HeroSection />
+  );
 }
 
-export default App
+export default App;
