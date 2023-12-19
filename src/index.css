@@ -6,7 +6,8 @@
   background-color: #06060600;
 }
 :root {
-  font-family: "IBM Plex Sans", sans-serif, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "IBM Plex Sans", sans-serif, Inter, system-ui, Avenir, Helvetica,
+    Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -21,7 +22,7 @@
 }
 
 .package-price {
-  background: -webkit-linear-gradient(#986DEA, #EA69BD);
+  background: -webkit-linear-gradient(#986dea, #ea69bd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

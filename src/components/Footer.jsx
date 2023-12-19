@@ -13,7 +13,7 @@ export default function Footer(){
             <div className="footer flex justify-center items-center">
                 <div className="box rounded-xl px-12 py-16 flex justify-between items-start flex-col md:flex-row">
                     <div className="left-side">
-                        <div className="heading text-4xl text-gray-200">Fellow</div>
+                        <div className="heading text-4xl text-gray-200 text-start">Fellow</div>
                         <div className="info text-xl mt-5 text-gray-300">Where tech founders hire great</div>
                         <div className="info text-xl text-gray-300">developers really fast.</div>
                         <div className="social-icons mt-6 flex justify-start items-start gap-3">
