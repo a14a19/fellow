@@ -49,7 +49,7 @@ function Learn() {
                     <br />
 
                     <div style={{ display: "flex", color: "white" }}>
-                        <div style={{fontSize: "75px", fontWeight: "400px", fontSize: "100px",lineHeight:"100px",backgroundClip: "text",color:"grey"}}>
+                        <div style={{fontWeight: "400px", fontSize: "100px",lineHeight:"100px",backgroundClip: "text",color:"grey"}}>
                             2
                         </div>
 
@@ -62,7 +62,7 @@ function Learn() {
                     <br />
 
                     <div style={{ display: "flex", color: "white" }}>
-                        <div style={{fontSize: "75px", fontWeight: "400px", fontSize: "100px",lineHeight:"100px", backgroundClip: "text",color:"grey"}}>
+                        <div style={{ fontWeight: "400px", fontSize: "100px",lineHeight:"100px", backgroundClip: "text",color:"grey"}}>
                             3
                         </div>
 
@@ -75,7 +75,7 @@ function Learn() {
                     <br />  
 
                     <div style={{ display: "flex", color: "white" }}>
-                        <div style={{ fontSize: "75px", fontWeight: "400px", fontSize: "100px",lineHeight:"100px",backgroundClip: "text",color:"grey"}}>
+                        <div style={{  fontWeight: "400px", fontSize: "100px",lineHeight:"100px",backgroundClip: "text",color:"grey"}}>
                             4
                         </div>
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "./LoveFellow.css";
+import "./lovefellow.css";
 import yellow from "../../assets/yellow.png";
 import blue from "../../assets/blue.png";
 import pink from "../../assets/pink.jpg";
