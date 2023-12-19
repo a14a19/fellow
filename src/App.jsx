@@ -1,10 +1,7 @@
-function App() {
+//import "./components/lovefellow/loveFellow.jsx";
 
-  return (
-    <div className="w-screen h-screen bg-[#000]">
-      Fellow
-    </div>
-  )
-}
+// function App() {
+//   return <div className="w-screen h-screen bg-[#000]">Fellow</div>;
+// }
 
-export default App
+// export default App;
