@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"
+import Footer from "./components/Footer"
 import Learn from "./components/Learn/Learn"
 import Pricing from "./components/pricing"
 import HeroSection from './components/HeroSection';
@@ -9,6 +10,7 @@ function App() {
       <Learn/>
       <HeroSection />
       <Pricing/>
+      <Footer/>
     </>
   )
 };
