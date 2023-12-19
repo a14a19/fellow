@@ -6,13 +6,13 @@ const Pricing = () => {
   return (
     <div className='container'>
         <div>
-            <div className='container text-center py-16'>
-                <h1 className='text-3xl font-semibold'>Schedule a 1:1 meeting with Our Counsellor</h1>
+            <div className='sm:container text-center py-16'>
+                <p className='sm:text-3xl text-2xl font-semibold'>Schedule a 1:1 meeting with Our Counsellor</p>
                 <p className='my-4'>Get a chance to interact with the team before enrolling <br/>in the program.</p>
                 <button className='mt-5 px-6 py-3 font-semibold rounded boder-blue-700 bg-blue-700 bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-400'>Book now</button>
             </div>
             <h1 className='bg-white py-24 text-4xl font-semibold text-center text-black'>Program fees </h1>
-            <div className='container flex flex-col gap-16 px-24 py-15 bg-white'>
+            <div className='container flex flex-col gap-16 sm:px-24 px-8 py-15 bg-white'>
                 <div className='container p-8 rounded-2xl border-2 border-white bg-black'>
                     <div className='text-2xl font-semibold'>Placement 101</div>
                     <div className='py-2 text-4xl font-semibold mt-4 mb-8 package-price'>$99</div>
