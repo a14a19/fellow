@@ -1,8 +1,10 @@
-function App() {
+import React from "react";
+import Pricing from "./components/pricing"
 
+function App() {
   return (
-    <div className="w-screen h-screen bg-[#000]">
-      Fellow
+    <div>
+      <Pricing/>
     </div>
   )
 }
