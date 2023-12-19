@@ -1,7 +1,18 @@
-//import "./components/lovefellow/loveFellow.jsx";
+import React from "react"
+import Footer from "./components/Footer"
+import Learn from "./components/Learn/Learn"
+import Pricing from "./components/pricing"
+import HeroSection from './components/HeroSection';
 
-// function App() {
-//   return <div className="w-screen h-screen bg-[#000]">Fellow</div>;
-// }
+function App() {
+  return (
+    <>
+      <Learn/>
+      <HeroSection />
+      <Pricing/>
+      <Footer/>
+    </>
+  )
+};
 
-// export default App;
+export default App;
