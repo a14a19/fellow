@@ -11,7 +11,7 @@ const Pricing = () => {
                     <button className='mt-5 px-6 py-3 font-semibold rounded boder-blue-700 bg-blue-700 bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-400'>Book now</button>
                 </div>
                 <h1 className='bg-white py-24 text-4xl font-semibold text-center text-black'>Program fees </h1>
-                <div className='container flex flex-row  gap-16 sm:px-24 px-8 py-15 bg-white'>
+                <div className='container flex flex-col sm:flex-row gap-16 sm:px-24 px-8 py-15 bg-white'>
                     <div className='container p-8 rounded-2xl border-2 border-white  bg-black'>
                         <div className='text-2xl font-semibold'>Placement 101</div>
                         <div className='py-2 text-4xl font-semibold mt-4 mb-8 package-price'>$99</div>
@@ -123,7 +123,7 @@ const Pricing = () => {
                         Let's join our famous class the knowledge provided will definitely be useful for you.
                     </div>
                 </div>
-                <div className='container flex flex-row gap-16  py-15 '>
+                <div className='container flex flex-col sm:flex-row gap-16 py-15'>
                     <div className='flex-1 shadow-lg'>
                         <img src="./images/image-read.png" alt="hrh" />
                         <div className='gap-9 mx-5'>
