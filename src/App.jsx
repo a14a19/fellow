@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactCardSlider from './components/card/Card';
 // import ReactCardSlider from './compnents/card/Card';
+import Footer from "./components/Footer";
+import Learn from "./components/Learn/Learn";
+import Pricing from "./components/pricing";
+import HeroSection from "./components/HeroSection";
+import LoveFellow from "./components/lovefellow/loveFellow";
 
-const App = () => {
-  const slides = [
+const slides = [
     { image: 'https://picsum.photos/200/300', title: 'This is a title', description: 'This is a description' },
     { image: 'https://picsum.photos/600/500', title: 'This is a second title', description: 'This is a second description' },
     { image: 'https://picsum.photos/700/600', title: 'This is a third title', description: 'This is a third description' },
@@ -13,13 +17,20 @@ const App = () => {
     { image: 'https://picsum.photos/300/400', title: 'This is a seventh title', description: 'This is a seventh description' },
   ];
 
+function App() {
   return (
-    <div>
+    <>
+      <HeroSection />
+      <LoveFellow />
+      <div>
       {/* <ReactCardSlider slides={slides} autoslide={true} /> */}
-      <ReactCardSlider slides={slides} autoslide={true}/>
-
-    </div>
+        <ReactCardSlider slides={slides} autoslide={true}/>
+      </div>
+      <Learn />
+      <Pricing />
+      <Footer />
+    </>
   );
-};
+}
 
 export default App;
