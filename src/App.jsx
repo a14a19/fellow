@@ -4,6 +4,7 @@ import ReactCardSlider from './components/card/Card';
 import Footer from "./components/Footer";
 import Learn from "./components/Learn/Learn";
 import Pricing from "./components/pricing";
+import EngagingLearning from "./components/EngagingLearning/EngagingLearning";
 import HeroSection from "./components/HeroSection";
 import LoveFellow from "./components/lovefellow/loveFellow";
 
@@ -21,6 +22,11 @@ function App() {
   return (
     <>
       <HeroSection />
+      <div className="w-full  flex justify-center items-center bg-white">
+        <EngagingLearning/>
+      </div>
+      {/* <LoveFellow /> */}
+      <HeroSection />
       <div className="bg-white min-h-screen flex items-center justify-center">
         <LoveFellow />
       <div>
@@ -29,7 +35,7 @@ function App() {
       </div>
       <Learn />
       <Pricing />
-      <Footer />
+      <Footer /> */}
     </>
   )
 }
