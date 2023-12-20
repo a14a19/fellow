@@ -1,6 +1,7 @@
 import React from "react"
 import Footer from "./components/Footer"
-import Sample from "./components/Sample"
+import Header from "./components/Header"
+
 
 function App() {
 
@@ -9,8 +10,8 @@ function App() {
     //   Fellow
     // </div>
     <>
-      <Footer/>
-      {/* <Sample/> */}
+      {/* <Footer/> */}
+      <Header/>
     </>
   )
 }
