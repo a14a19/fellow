@@ -21,16 +21,17 @@ function App() {
   return (
     <>
       <HeroSection />
-      <LoveFellow />
+      <div className="bg-white min-h-screen flex items-center justify-center">
+        <LoveFellow />
       <div>
       {/* <ReactCardSlider slides={slides} autoslide={true} /> */}
-        <ReactCardSlider slides={slides} autoslide={true}/>
+        <ReactCardSlider slides={slides} autoslide={true} />
       </div>
       <Learn />
       <Pricing />
       <Footer />
     </>
-  );
+  )
 }
 
 export default App;
