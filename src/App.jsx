@@ -8,10 +8,10 @@ function App() {
   return (
     <>
       <HeroSection />
-      <LoveFellow />
+      {/* <LoveFellow />
       <Learn />
       <Pricing />
-      <Footer />
+      <Footer /> */}
     </>
   )
 }

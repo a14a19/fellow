@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'lg-hero': { 'min': '980px' },
+        'md-hero': { 'min': '550px' },
+      }
+    },
   },
   plugins: [],
 }
