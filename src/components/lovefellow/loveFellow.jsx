@@ -10,8 +10,8 @@ const LoveFellow = () => {
       <div className="container-1280px join-container">
         <h1>Top Product Managers Love Fellow. Here's Why:</h1>
         <p className="sub-heading">
-          We get the recruiters to you. We help you thrive. We only work with the
-          best in the business.
+          We get the recruiters to you. We help you thrive. We only work with
+          the best in the business.
         </p>
         <div className="flex">
           <div className="image-container pink">
@@ -22,8 +22,8 @@ const LoveFellow = () => {
                 Guarantee job security with a platform that looks out for you.
               </p>
               <p>
-                Fellow offers full-term health insurance and assists you with all
-                contractual paperwork during hiring. We keep your employees
+                Fellow offers full-term health insurance and assists you with
+                all contractual paperwork during hiring. We keep your employees
                 accountable every step of the way.
               </p>
             </div>
