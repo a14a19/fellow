@@ -25,6 +25,34 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.text-3 {
+  height: 48px;
+  width: 336px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #667085;
+}
+.pic-frame {
+  gap: 12px;
+}
+.text-1 {
+  color: #667085;
+}
+.content-1 {
+  width: 90;
+  height: 40;
+}
+.join {
+  color: #667085;
+}
+.design {
+  color: #7F56D9;
+
+}
+
 /* a {
   font-weight: 500;
   color: #646cff;
