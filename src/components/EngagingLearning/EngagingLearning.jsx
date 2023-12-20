@@ -1,5 +1,5 @@
-import React from 'react';
-import { TbMathGreater } from "react-icons/tb";
+// import React from 'react';
+// import { TbMathGreater } from "react-icons/tb";
 import archi1 from "../../assets/archi1.svg";
 import archi2 from "../../assets/archi2.svg";
 import archi3 from "../../assets/archi3.svg";
@@ -77,7 +77,7 @@ function EngagingLearning() {
                     <div className="w-3 h-3 left-[84px] top-0 absolute bg-zinc-300 rounded-full" />
                 </div> */}
                 <div className="w-24 h-3 relative">
-                    <   div class="w-3 h-3 left-[40px] top-0 absolute bg-zinc-300 rounded-full" />
+                    <div className="w-3 h-3 left-[40px] top-0 absolute bg-zinc-300 rounded-full" />
                     <div className="w-3 h-3 left-[60px] top-0 absolute bg-zinc-300 rounded-full" />
                     <div className="w-3 h-3 left-[80px] top-0 absolute bg-zinc-300 rounded-full" />
 

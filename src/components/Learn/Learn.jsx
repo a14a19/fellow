@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Learn"
+import "./Learn.css"
 
 function Learn() {
     return (

@@ -1,4 +1,3 @@
-import React from "react"
 import { Link } from "react-router-dom";
 import { Popover } from "@headlessui/react";
 import { useState } from "react";
@@ -8,7 +7,7 @@ function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     return (
         <>
-            <div className="main bg-[#FCFAFF] h-min">
+            <div className="main bg-[#FCFAFF] h-min z-100">
                 <div className="navbar bg-[#FCFAFF] w-full h-14 fixed flex justify-between items-center gap-2 px-2 md:px-20">
                     <div className="left-side-header flex justify-between items-center gap-2">
                         <img className="h-6 w-6 rounded-full" src="https://ugc.production.linktr.ee/daa2917a-c36c-4ec6-b287-6329219e3a13_Fellow.png?io=true&size=avatar-v1_0" alt="logo" />

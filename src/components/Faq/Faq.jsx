@@ -8,15 +8,15 @@ function Faq() {
         <div className="class3">
             <div>
                 <h2 className="text-3xl">Frequntly Asked Questions</h2>
-                
+
 
                 <p>Have more questions? Contact our support team to get what you need.</p>
-                <a class="dark" style={{ fontWeight: 'bold' }} href="mailto:info@mailgo.dev">support@pesto.tech</a>
+                <a className="dark" style={{ fontWeight: 'bold' }} href="mailto:info@mailgo.dev">support@pesto.tech</a>
             </div>
 
 
             <div className="class1 w-6/12">
-               
+
                 <Disclosure >
                     {({ open }) => (
                         <>
@@ -45,7 +45,7 @@ function Faq() {
                             <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm text-black bg-white">
                                 We do not guarantee placements. We will assist you in advancing your career and ensure you’re positioned well to maximize your opportunities. We win when you win.
                             </Disclosure.Panel>
-                        </>             
+                        </>
                     )}
                 </Disclosure>
                 <Disclosure>

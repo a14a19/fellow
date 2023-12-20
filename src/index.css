@@ -18,7 +18,7 @@
 }
 
 .package-price {
-  background: -webkit-linear-gradient(#986DEA, #EA69BD);
+  background: -webkit-linear-gradient(#986dea, #ea69bd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -88,8 +88,7 @@
   color: #667085;
 }
 .design {
-  color: #7F56D9;
-
+  color: #7f56d9;
 }
 
 /* a {

@@ -1,7 +1,7 @@
-import React from "react";
 import blog1 from "../../assets/blog1.jpg";
 import blog2 from "../../assets/blog2.jpg";
 import blog3 from "../../assets/blog3.jpg";
+import "./lovefellow.css";
 
 const LoveFellow = () => {
   return (

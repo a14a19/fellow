@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css"
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -8,13 +8,13 @@ import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 
 export default function Footer() {
     return (
-        <>  
+        <>
             <div className="footer bg-black p-12 px-8 flex flex-col md:p-12 px-20">
                 <div className="footer-box w-full flex flex-col justify-between items-start gap-6 md:flex-row">
                     <div className="footer-log flex flex-col gap-6">
                         <div className="flex justify-start items-center gap-2">
                             <div className="border-2 border-[#a3a3a3] rounded-full">
-                            <img className="h-6 w-6 rounded-full" src="https://ugc.production.linktr.ee/daa2917a-c36c-4ec6-b287-6329219e3a13_Fellow.png?io=true&size=avatar-v1_0" alt="logo" />
+                                <img className="h-6 w-6 rounded-full" src="https://ugc.production.linktr.ee/daa2917a-c36c-4ec6-b287-6329219e3a13_Fellow.png?io=true&size=avatar-v1_0" alt="logo" />
                             </div>
                             <div className="footer-logo-name text-[#FCFAFF] text-lg font-bold">Fellow</div>
                         </div>
@@ -61,10 +61,10 @@ export default function Footer() {
                         © 2022 Ed-Circle. All rights reserved.
                     </div>
                     <div className="icons flex justify-between items-center gap-4">
-                        <Link><LinkedInIcon/></Link>
-                        <Link><InstagramIcon/></Link>
-                        <Link><MailOutlineIcon/></Link>
-                        <Link><AlternateEmailIcon/></Link>
+                        <Link><LinkedInIcon /></Link>
+                        <Link><InstagramIcon /></Link>
+                        <Link><MailOutlineIcon /></Link>
+                        <Link><AlternateEmailIcon /></Link>
                     </div>
                 </div>
             </div>

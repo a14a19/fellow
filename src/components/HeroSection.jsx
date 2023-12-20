@@ -6,7 +6,7 @@ import board from "../assets/Board.svg";
 
 const HeroSection = () => {
   return (
-    <section className="max-w-[1199px] flex justify-center items-center mx-auto flex-col">
+    <section className="max-w-[1199px] flex justify-center items-center mx-auto flex-col pt-20">
       <div className="flex justify-between items-center w-full flex-col-reverse md:flex-row">
         <div className="flex flex-col items-center justify-center lg-hero:items-start lg:max-w-[60%] w-full p-5">
           <h1 className="font-bold text-center lg-hero:text-start lg:text-[56px] md:text-5xl text-3xl capitalize">Become A <span className="text-black" style={{ textShadow: "1px 1px 0px white, -1px -1px 0px white" }}>Product Manager</span> In 12 weeks</h1>

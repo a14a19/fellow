@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { CheckCircleIcon, XCircleIcon } from '@heroicons/react/24/solid';
 
 const Pricing = () => {
@@ -128,8 +128,8 @@ const Pricing = () => {
                         <img src="./images/image-read.png" alt="hrh" />
                         <div className='gap-9 mx-5'>
                             <div className='flex flex-row'>
-                            <span><img className='h-8 w-8 my-4' src="./images/Google-.png" alt="" /></span>
-                            <span className=' py-6 font-semibold text-xm mx-4 design'>Google</span>
+                                <span><img className='h-8 w-8 my-4' src="./images/Google-.png" alt="" /></span>
+                                <span className=' py-6 font-semibold text-xm mx-4 design'>Google</span>
                             </div>
                             <div className='py-2 font-semibold text-black '>Google Project Management:</div>
                             <span className='text-black'>Skills you'll gain:</span>
@@ -153,8 +153,8 @@ const Pricing = () => {
                             </div>
                             <div className='py-2 font-semibold text-black '>Software Project Management:</div>
                             <span className='text-black'>Skills you'll gain:</span>
-                            <span className='text-3'>Sosftware Engineering, Agile Softare Devlopment, 
-                            Product Management, Design and Product...
+                            <span className='text-3'>Sosftware Engineering, Agile Softare Devlopment,
+                                Product Management, Design and Product...
                             </span>
                             <div className='flex flex-row gap-4 w-100 py-3'>
                                 <div className='text-black text-xs'>4.7</div>
@@ -167,8 +167,8 @@ const Pricing = () => {
                     <div className='flex-1 shadow-lg'>
                         <img src="./images/Concept-2.png" alt="hrh" />
                         <div className='gap-9 mx-5'>
-                             <div className='flex flex-row'>
-                                 <span><img className='h-8 w-8 my-4' src="./images/digital-product.png" alt="" /></span>
+                            <div className='flex flex-row'>
+                                <span><img className='h-8 w-8 my-4' src="./images/digital-product.png" alt="" /></span>
                                 <span className=' py-6 font-semibold text-xm mx-4 design'>Coursera</span>
                             </div>
                             <div className='py-2 font-semibold text-black '>Digital Product Management:</div>
@@ -188,8 +188,8 @@ const Pricing = () => {
                 </div>
             </div>
         </div>
-    
- )
+
+    )
 }
 
 export default Pricing;
