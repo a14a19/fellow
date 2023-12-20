@@ -1,11 +1,18 @@
 /* LoveFellow.css */
 
+
+.bg-white {
+  margin: 0;
+  padding: 0;
+  height: auto; /* or specify a fixed height */
+  overflow: hidden; /* or scroll, depending on your needs */
+}
 /* body {
     background-color: white;
     color: black;
   } */
 
-.container-1280px.join-container {
+/* .container-1280px.join-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -21,15 +28,15 @@
   max-width: 530px;
   position: relative;
   overflow: hidden;
-}
+} */
 
-/* Moved container styles for yellow and blue images */
-.flex .image-container {
+/* Moved container styles for yellow and blue images
+/* .flex .image-container {
   flex: 1 0 48%;
   max-width: 580px; /* Increased max width for yellow and blue images */
-}
+/* } */ 
 
-.image-container img {
+/* .image-container img {
   width: 100%;
   height: auto;
   display: block;
@@ -50,10 +57,10 @@
   font-size: 14px;
   color: black;
   text-align: center;
-}
+} */
 
 /* Styles for Pink Image */
-.image-container.pink {
+/* .image-container.pink {
   position: relative;
   z-index: 1;
   background-color: lightpink;
@@ -63,16 +70,16 @@
   height: 400px;
 }
 
-.pink-overlay {
+.pink-overlay { */
   /* top: 0;
     left: 0; */
-  width: 100%;
+  /* width: 100%;
   height: 100%;
   background: pink;
   opacity: 0.5;
-}
+} */
 
-.pink-content {
+/* .pink-content {
   position: absolute;
   bottom: 20px;
   left: 20px;
@@ -90,14 +97,10 @@
   margin: 10px;
   border-radius: 15px;
   height: 400px;
-  background-color: lightyellow; /* Light yellow background color */
-}
+  background-color: lightyellow; 
+} */
 
-.overlay-yellow {
-  /* position: absolute;
-    top: 0;
-    left: 0; */
-  width: 100%;
+/* .overlay-yellow {
   height: 100%;
   z-index: 1;
   opacity: 0.5;
@@ -105,19 +108,19 @@
 
 .content-yellow {
   position: absolute;
-  top: 5px; /* Adjust the distance from the top */
+  top: 5px; 
   left: 20px;
 
   color: black;
-}
+} */
 
-.text-yellow {
+/* .text-yellow {
   font-size: 14px;
   font-weight: bold;
   margin-top: 9px;
 }
 .yellow-inner {
-  margin-top: 75px; /* Adjusted margin-top for the yellow image */
+  margin-top: 75px;
 }
 
 .image-container.blue {
@@ -125,12 +128,12 @@
   z-index: 1;
   max-width: 1200px;
 
-  background-color: lightblue; /* Light blue background color */
+  background-color: lightblue; 
   padding: 10px;
   margin: 10px;
   border-radius: 15px;
   height: 400px;
-  margin-top: 20px; /* Adjust the margin-top value as needed */
+  margin-top: 20px; 
 }
 
 .overlay-blue {
@@ -142,7 +145,7 @@
 
 .content-blue {
   position: absolute;
-  top: 5px; /* Adjust the distance from the top */
+  top: 5px; 
   left: 20px;
   color: black;
 }
@@ -161,4 +164,4 @@
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-}
+} */
