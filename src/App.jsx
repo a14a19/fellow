@@ -1,4 +1,6 @@
-import React from 'react';
+import React from "react"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
 import ReactCardSlider from './components/card/Card';
 // import ReactCardSlider from './compnents/card/Card';
 import Footer from "./components/Footer";
@@ -21,21 +23,20 @@ const slides = [
 function App() {
   return (
     <>
+      <Header/>
       <HeroSection />
       <div className="w-full  flex justify-center items-center bg-white">
         <EngagingLearning/>
       </div>
-      {/* <LoveFellow /> */}
       <HeroSection />
       <div className="bg-white min-h-screen flex items-center justify-center">
         <LoveFellow />
       <div>
-      {/* <ReactCardSlider slides={slides} autoslide={true} /> */}
         <ReactCardSlider slides={slides} autoslide={true} />
       </div>
       <Learn />
       <Pricing />
-      <Footer /> */}
+      <Footer /> 
     </>
   )
 }
