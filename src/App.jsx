@@ -28,7 +28,6 @@ function App() {
       <div className="w-full  flex justify-center items-center bg-white">
         <EngagingLearning/>
       </div>
-      <HeroSection />
       <div className="bg-white min-h-screen flex items-center justify-center">
         <LoveFellow />
       <div>
