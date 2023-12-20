@@ -8,7 +8,9 @@ function App() {
   return (
     <>
       <HeroSection />
-      <LoveFellow />
+      <div className="bg-white min-h-screen flex items-center justify-center">
+        <LoveFellow />
+      </div>
       <Learn />
       <Pricing />
       <Footer />
